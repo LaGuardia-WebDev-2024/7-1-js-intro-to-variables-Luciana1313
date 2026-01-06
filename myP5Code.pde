@@ -5,13 +5,13 @@ void setup() {
 }
 
 //🎯Varaible Declarations Go Here
-var eyeSize = 8;
 
 //🟢Draw Procedure - Runs on Repeat
 void draw(){
   fill(255,255,255);
   strokeWeight(1);
   background(255,255,255,200);
+var eyeSize = 33;
 
   //💡⬇️⬇️⬇️💡 Your Code For This Unit Goes Here
   
@@ -29,8 +29,6 @@ void draw(){
   noFill();
   rect(185, 200, 15, 10); // left tooth
   rect(200, 200, 15, 10); // right tooth
-  
-
 }
 
 
